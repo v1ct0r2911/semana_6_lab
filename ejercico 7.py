@@ -1,0 +1,9 @@
+temperatura=int(input("temperatura "))
+if temperatura<10:
+    print("clima frio")
+elif 11<=temperatura<=16:
+    print("clima templado")
+elif 17<=temperatura<=24:
+    print("clima calido")
+elif temperatura>24:
+    print("clima tropicaal")
